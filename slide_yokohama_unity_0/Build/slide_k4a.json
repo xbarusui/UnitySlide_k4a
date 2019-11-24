@@ -1,0 +1,15 @@
+{
+"companyName": "kaiwarestyle",
+"productName": "UnityVJShaderSlide2018",
+"productVersion": "1.0",
+"dataUrl": "slide_k4a.data.unityweb",
+"wasmCodeUrl": "slide_k4a.wasm.code.unityweb",
+"wasmFrameworkUrl": "slide_k4a.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"developmentBuild": true,
+"multithreading": false,
+"unityVersion": "2019.2.12f1"
+}
