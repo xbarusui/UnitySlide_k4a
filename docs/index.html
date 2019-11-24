@@ -6,35 +6,6 @@
     <title>Unity WebGL Player | UnitySlide_AzureKinect</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script>
-    const doc = document.documentElement;
-    const content = document.querySelector(".webgl-content");
-    setInterval(function() {
-      const c = document.querySelector("canvas");
-      if (!c) {
-        return;
-      }
-      if (doc.clientWidth <= c.clientWidth) {
-        const scale = doc.clientWidth / c.clientWidth;
-        content.style.transformOrigin = "top left";
-        content.style.top = content.style.left = "0";
-        content.style.transform = "scale(" + scale + ")";
-      } else {
-        content.style.transformOrigin = "";
-        content.style.top = content.style.left = "";
-        content.style.transform = "";
-      }
-    }, 1000);
-    </script>
-    <meta name="viewport" content="width=1136,initial-scale=1" />
-    <script>
-    UnityLoader.SystemInfo.mobile = false;
-    var gameInstance = UnityLoader.instantiate(
-      "gameContainer",
-      "Build/xxx.json",
-      { onProgress: UnityProgress }
-    );
-    </script>
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
